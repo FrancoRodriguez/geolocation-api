@@ -1,0 +1,55 @@
+{
+  "ip": "172.64.236.37",
+  "type": "ipv4",
+  "continent_code": "EU",
+  "continent_name": "Europe",
+  "country_code": "ES",
+  "country_name": "Spain",
+  "region_code": "MD",
+  "region_name": "Madrid",
+  "city": "Madrid",
+  "zip": "28001",
+  "latitude": 40.41669845581055,
+  "longitude": -3.7002999782562256,
+  "msa": null,
+  "dma": null,
+  "radius": null,
+  "ip_routing_type": "fixed",
+  "connection_type": "tx",
+  "location": {
+    "geoname_id": 3117735,
+    "capital": "Madrid",
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español"
+      },
+      {
+        "code": "eu",
+        "name": "Basque",
+        "native": "Euskara"
+      },
+      {
+        "code": "ca",
+        "name": "Catalan",
+        "native": "Català"
+      },
+      {
+        "code": "gl",
+        "name": "Galician",
+        "native": "Galego"
+      },
+      {
+        "code": "oc",
+        "name": "Occitan",
+        "native": "Occitan"
+      }
+    ],
+    "country_flag": "https://assets.ipstack.com/flags/es.svg",
+    "country_flag_emoji": "🇪🇸",
+    "country_flag_emoji_unicode": "U+1F1EA U+1F1F8",
+    "calling_code": "34",
+    "is_eu": true
+  }
+}

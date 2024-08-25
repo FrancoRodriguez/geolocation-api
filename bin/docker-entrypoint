@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+# Wait for the database to be available
+echo "Waiting for the database to be ready..."
+until nc -z -v -w30 $DATABASE_HOST $DATABASE_PORT
+do
+  echo "Waiting for database $DATABASE_HOST:$DATABASE_PORT connection..."
+  sleep 1
+done
+
+# Run database migrations
+echo "Running database migrations..."
+bundle exec rake db:migrate 2>&1
+
+# Execute the main container command (rails server)
+exec "$@"

@@ -1,0 +1,6 @@
+en:
+  errors:
+    ipstack_client: "Error code [%{code}]: '%{info}' for ip_address: [%{ip_address}]"
+    geolocations_controller:
+      ip_or_url_blank: IP or URL cannot be blank
+

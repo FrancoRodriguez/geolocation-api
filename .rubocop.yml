@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 3.1
+
+  # Exclude generated files
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'bin/*'
+    - 'node_modules/**/*'
+
+# Custom settings for specific cops
+Metrics/LineLength:
+  Max: 120
+
+# Enable or disable specific cops
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+# Disable Style/Documentation cop
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/controllers/api/v1/geolocations_controller_spec.rb'
+    - 'spec/services/geolocation_service_spec.rb'
+    - 'spec/services/ip_from_url_service_spec.rb'
